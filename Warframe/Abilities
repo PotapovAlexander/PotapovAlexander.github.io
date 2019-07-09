@@ -1,0 +1,39 @@
+<html>
+	<head>
+		<link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+		<title></title>
+	</head>
+
+	<body>		
+		<div id="header">  
+					<table id="tableleft">
+                           <th>
+                               <tr>
+                                   <td><div class="buttom"><a href="index.php">Main</a></div></td>
+                                   <td><div class="buttom"><a href="build.php">Build</a></div></td>
+                                   <td><div class="buttom"><a href="History.php">History</a></div></td>
+                               </tr>
+                           </th>
+					</table>	
+					<h1>Abilities</h1>
+		</div>		
+		<div class="center">
+	                 <table id="table1">
+                           <th>
+                               <tr>
+                                   <td><img src="Image/1.png" align="center"></div></td>
+                                   <td><img src="Image/2.png" align="center"></div></td>                          
+                               </tr>
+                               <tr>
+                                   <td><img src="Image/3.png" align="center"></td>
+                                   <td><img src="Image/4.png" align="center"></td>                          
+                               </tr>
+                           </th>
+					</table>
+		</div>
+		<div id="footer">
+			<h3>Yakutsk 2019</h3>
+		</div>
+	</body>
+</html>
+ 

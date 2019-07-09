@@ -1,0 +1,115 @@
+body {
+    background-color: black;
+    background-image: url('Image/background.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;     
+}
+h1 {
+    font-family: Verdana;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
+h3 {
+    font-family: Verdana;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
+b {
+    font-family: Verdana;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
+p {
+    font-family: Verdana;
+    color: white;
+     margin-left:5px;
+}
+li {
+    font-family: Verdana;
+    font-weight: bold;
+    text-align: left;
+    color: white;
+}
+img {
+ border-radius:5px; /*закругляем края*/
+}
+#header{
+    height: 10%;
+    width: 100%;
+    background-color:#668284; /*цвет фона*/
+    border-radius:5px; /*закругляем края*/
+    opacity: 0.7;/*прозрачность*/
+    } 
+.left{
+    height: 80%;
+    width: 60%;
+    border-radius:5px;
+    background-color:#668284;
+    float:left;
+    opacity: 0.95;
+    }
+.center{
+    height: 80%;
+    width: 100%;
+    border-radius:5px;
+    background-color:#668284;
+    float:left;
+    opacity: 0.95;
+    }
+.right {
+    height: 80%;
+    width: 40%;
+    border-radius:5px;
+    background-color:#668284;
+    float:right;
+    opacity: 0.95;
+    } 
+#footer{
+    height: 10%;
+    width: 100%;
+    border-radius:5px;
+    background-color:#668284;
+    clear:both;
+    opacity: 0.7;/*прозрачность*/
+    }
+#tableleft {
+    background-color:#668284;
+    float: left;  
+ }
+#tableright {
+    background-color:#668284;
+    float: right;   
+ }
+ #tablebottom {
+    background-color:#668284;
+    float: bottom;   
+    margin-top:40px;
+    margin-left:40px;
+ }
+.buttom a{
+    padding: 12px 44px; /*высота и ширина нашейкнопки*/
+    font-family: Verdana;
+    background-color: #818181;
+    font-size: 26px;/*Размер шрифта*/
+    color: white;
+    text-decoration: none;
+}
+.buttom a:hover{
+    background-color: #717171;
+}
+.buttom a:active{
+    background-color: #515151;
+}
+
+#table1 {
+    margin-top:80px;
+    margin-left:80px;
+}
+
+
+
+
+

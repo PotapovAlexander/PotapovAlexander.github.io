@@ -1,0 +1,53 @@
+<html>
+	<head>
+		<link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+		<title></title>
+	</head>
+
+	<body>		
+		<div id="header">  
+					<table id="tableleft">
+                           <th>
+                               <tr>
+                                   <td><div class="buttom"><a href="index.php">Main</a></div></td>
+                                   <td><div class="buttom"><a href="Abilities.php">Abilities</a></div></td>
+                                   <td><div class="buttom"><a href="History.php">History</a></div></td>
+                               </tr>
+                           </th>
+					</table>	
+					<h1>Build</h1>
+		</div>
+		<div class="left">
+			<b> For receiving this bild we used: 4 forms and catalyst Orokin.
+				<table id="tablebottom">
+                           <th>
+                               <tr>
+                                   <td><img src="Image/bild.png" align="left"></td>
+                               </tr>
+                           </th>
+				</table>
+			</b>
+		</div>		
+		<div class="right">
+	           	<ul>
+	                <li>Aura: Energy Siphon lvl 5 </li>
+	                <li>Mod: Primed Flow lvl 10</li>
+	                <li>Mod: Primed Continuity lvl 10</li>
+	                <li>Mod: Stretch lvl 5</li>
+	                <li>Mod: Intensify lvl 5</li>
+	                <li>Mod: Fleeting Expertise 5 lvl </li>
+	                <li>Mod: Redirection lvl 10 </li>
+	                <li>Mod: Blind Rage lvl 10</li>
+	                <li>Mod: Firequake lvl 3 </li>
+	           </ul>
+		</div>
+		<div id="footer">
+			<h3>Yakutsk 2019</h3>
+		</div>
+	</body>
+</html>
+ 
+
+
+ 
+

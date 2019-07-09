@@ -1,0 +1,36 @@
+<html>
+	<head>
+		<link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+		<title></title>
+	</head>
+
+	<body>		
+		<div id="header">  
+					<table id="tableleft">
+                           <th>
+                               <tr>
+                                   <td><div class="buttom"><a href="index.php">Main</a></div></td>
+                                   <td><div class="buttom"><a href="build.php">Build</a></div></td>
+                                   <td><div class="buttom"><a href="Abilities.php">Abilities</a></div></td>
+                               </tr>
+                           </th>
+					</table>	
+					<h1>History</h1>
+		</div>		
+		<div class="center">
+<p>&nbsp;Three figures waited behind a simple table. Their attention on a single chair, bathed in light. An old woman's voice from the shadow: 'Send her in'. Across the room a security officer, stern and plain, opened the door. The outline of a young woman appeared at the door. She hesitated, but only for an instant, then crossed the room and sat.
+There was a gasp as the light hit her face. Her right eye was bright and blinking, but her left was a greasy slit. Her skin had been burned moon-white. Her mouth was a sagging gash without lips or expression. Her military beret was pulled snug over a scarred and hairless scalp.</p>
+<p>&nbsp;The old voice: 'Your name is Kaleen.' Kaleen nodded. 'You were the principal investigator of the Zariman?' Kaleen's voice was a jagged whisper, a rigid face. 'Yes.'</p>
+<p>&nbsp;Kaleen coughed, straightened: 'The Zariman was lost making the fold from Saturn to the Outer gates. Mechanical failure. I notified families and filled a report with the inspectors. Nothing ever returns from the fold, so I closed the case.'</p>
+<p>&nbsp;'But you reopened the case, days later.'</p>
+<p>&nbsp;'I didn't believe it myself until I stepped aboard the ship. It was completely intact, full environmental, as if it had never left.'</p>
+<p>&nbsp;'And the crew was gone.'</p>
+<p>&nbsp;'Not exactly.' Kaleen hesitated. 'We thought it was empty but we began to find...' Her face twitched at remembered pain, 'We began to find children hiding in the ship.'</p>
+<p>&nbsp;'And that is when you violated procedure?'</p>
+<p>&nbsp;Kaleen bowed her head, a tear welling in her sightless eye. 'They were children. They were afraid. They needed comfort.'</p>
+		</div>
+		<div id="footer">
+			<h3>Yakutsk 2019</h3>
+		</div>
+	</body>
+</html>
