@@ -1,14 +1,13 @@
-
 <!DOCTYPE html>
 <html lang="ru-RU">
 	<head>
 		<title>
-			РРќРџРћ		</title>
+			ИНПО		</title>
 
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<!--<meta name="viewport" content="width=device-width, initial-scale=1">-->
-		<link rel="stylesheet" href="stylecalc.css">
+
 		<link rel="stylesheet" href="style.css">
 		<link rel="stylesheet" href="modal.css">
 		<!--[if lt IE 9]>
@@ -111,10 +110,10 @@ var tminusnow = '{"now":"7\/5\/2019 13:42:36"}';
 <style type='text/css'>img#wpstats{display:none}</style>
 <!-- Jetpack Open Graph Tags -->
 <meta property="og:type" content="website" />
-<meta property="og:title" content="РРќРџРћ" />
-<meta property="og:description" content="РРЅСЃС‚РёС‚СѓС‚ РЅРµРїСЂРµСЂС‹РІРЅРѕРіРѕ РїСЂРѕС„РµСЃСЃРёРѕРЅР°Р»СЊРЅРѕРіРѕ РѕР±СЂР°Р·РѕРІР°РЅРёСЏ РЎР’Р¤РЈ." />
+<meta property="og:title" content="ИНПО" />
+<meta property="og:description" content="Институт непрерывного профессионального образования СВФУ." />
 <meta property="og:url" content="http://inpo.s-vfu.ru/" />
-<meta property="og:site_name" content="РРќРџРћ" />
+<meta property="og:site_name" content="ИНПО" />
 <meta property="og:image" content="https://s0.wp.com/i/blank.jpg" />
 <meta property="og:locale" content="ru_RU" />
 	</head>
@@ -128,35 +127,33 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 			<div class="wrapper">
 				<div class="row">
 					<div class="col-6">
-						<a class="header-logo" href="http://inpo.s-vfu.ru/" title="РќР° РіР»Р°РІРЅСѓСЋ">
-							<span class="header-logo-name">РРЅСЃС‚РёС‚СѓС‚ РЅРµРїСЂРµСЂС‹РІРЅРѕРіРѕ<br>РїСЂРѕС„РµСЃСЃРёРѕРЅР°Р»СЊРЅРѕРіРѕ РѕР±СЂР°Р·РѕРІР°РЅРёСЏ</span>
+						<a class="header-logo" href="http://inpo.s-vfu.ru/" title="На главную">
+							<span class="header-logo-name">Институт непрерывного<br>профессионального образования</span>
 
-							<span class="header-logo-sub">РЎРµРІРµСЂРѕ-Р’РѕСЃС‚РѕС‡РЅРѕРіРѕ С„РµРґРµСЂР°Р»СЊРЅРѕРіРѕ СѓРЅРёРІРµСЂСЃРёС‚РµС‚Р° РёРј. Рњ. Рљ. РђРјРјРѕСЃРѕРІР°</span>
+							<span class="header-logo-sub">Северо-Восточного федерального университета им. М. К. Аммосова</span>
 						</a>
 					</div>
 
 					<div class="col-6">
 						<form class="header-search" method="get">
-							<input class="text large header-search-text" type="text" name="s" placeholder="РџРѕРёСЃРє">
+							<input class="text large header-search-text" type="text" name="s" placeholder="Поиск">
 
-							<button class="header-search-button" type="submit" title="РќР°Р№С‚Рё">
+							<button class="header-search-button" type="submit" title="Найти">
 								<i class="icon-search"></i>
 							</button>
 						</form>
 					</div>
 				</div>
 			</div>
-		<!--РўСѓС‚ Р±С‹Р» headbar!-->
+		<!--Тут был headbar!-->
 		</header>
 
 
 <!--
-Р Р°СЃРїРѕР»РѕР¶РёС‚СЊ СЃСЋРґР° РєРѕРЅСЃС‚СЂСѓРєС‚РѕСЂ apex
+Расположить сюда конструктор
  !-->
-
-
-
-<!--<p><img src="background.png" width="100%" height="500" alt"test111"> </p>!-->
+ 
+<p><img src="background.png" width="100%" height="500" alt"test111"> </p>
 
 
 
@@ -170,28 +167,28 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 							<p>
 								<a href="http://s-vfu.ru" target="_blank" class="footer-svfu-link">
 									<div class="footer-svfu-link-image" style="background-image:url(http://inpo.s-vfu.ru/wp-content/themes/inpo/img/svfu-logo.png);"></div>
-									<div class="footer-svfu-link-text">РЎР’Р¤РЈ<br>РёРј. Рњ.Рљ.РђРјРјРѕСЃРѕРІР°</div>
+									<div class="footer-svfu-link-text">СВФУ<br>им. М.К.Аммосова</div>
 								</a>
 								<div class="footer-copyright">
-									В© 2019,
-									РРќРџРћ
+									© 2019,
+									ИНПО
 									<br>
-									РРЅСЃС‚РёС‚СѓС‚ РЅРµРїСЂРµСЂС‹РІРЅРѕРіРѕ РїСЂРѕС„РµСЃСЃРёРѕРЅР°Р»СЊРЅРѕРіРѕ РѕР±СЂР°Р·РѕРІР°РЅРёСЏ РЎР’Р¤РЈ
+									Институт непрерывного профессионального образования СВФУ
 								</div>
 							</p>
 
 							<p style="margin-left:5px;float:left;width:100%" class="footer-meta">
-								<span class="footer-meta-value">РђРґСЂРµСЃ: СѓР». РљСѓР»Р°РєРѕРІСЃРєРѕРіРѕ, 48, РєР°Р±. 532</span>
+								<span class="footer-meta-value">Адрес: ул. Кулаковского, 48, каб. 532</span>
 
-								<span class="footer-meta-value">РўРµР»РµС„РѕРЅ (С„Р°РєСЃ): +7 (4112) 32-13-55</span>
+								<span class="footer-meta-value">Телефон (факс): +7 (4112) 32-13-55</span>
 
-								<span class="footer-meta-value">Р­Р». РїРѕС‡С‚Р°: inpo@s-vfu.ru</span>
+								<span class="footer-meta-value">Эл. почта: inpo@s-vfu.ru</span>
 							</p>
 							
 						</div>
 
 						<div class="col-2">
-							<p class="right">РњС‹ РІ СЃРµС‚Рё</p>
+							<p class="right">Мы в сети</p>
 
 							<div class="footer-social">
 								<a class="footer-social-item" href="#"><i class="icon-vkontakte"></i></a>
@@ -248,7 +245,7 @@ var WPGroHo = {"my_hash":""};
     <label class="modal-overlay" for="modal-2"></label>
     <div class="modal-dialog">
       <div class="modal-header">
-        <h2>РћСЃС‚Р°РІСЊС‚Рµ Р·Р°СЏРІРєСѓ РЅР° РєСѓСЂСЃ</h2>
+        <h2>Оставьте заявку на курс</h2>
         <label class="btn-close" for="modal" aria-hidden="true">?</label>
       </div>
      
