@@ -1,21 +1,9 @@
 <?php
-if (!$FormsRadioButton1)
-{
-   echo 'Пользователь не выбрал ни одну из радиокнопок';
-}
-if ($FormsRadioButton1=="1")
-{
-   echo 'Выбрана радиокнопка 1';
-}
-if ($FormsRadioButton1=="радиокнопка2")
-{
-   echo 'Выбрана радиокнопка 2';
-}
-if ($FormsRadioButton1=="А это радиокнопка 3")
-{
-   echo 'Выбрана радиокнопка 3';
-}
-//Значение параметра VALUE соответствующей радиокнопки выведется, 
-// если была установлена какая-то из радиокнопок.
-echo $FormsRadioButton1;
+if($this->input->post('type_edit')) {
+    foreach($this->input->post('type_edit') as $val){
+        $data[] = $val;
+    }
+    var_dump($data); die(); // ничего не выводит
+
+} // не заходит в это условие
 ?>
