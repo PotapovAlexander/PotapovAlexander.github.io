@@ -7,13 +7,8 @@
 	background-size: cover; 	
 }
 
-
-.stablab label {
-    padding-top: 6px;
-    line-height: 18px;
-    float: left;
-    color: #b6daff;
-    margin-right: 7px;
-    width: 120px;
+.stablab {
+	display: block;
+	vertical-align: middle;
+	
 }
-
