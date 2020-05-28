@@ -11,5 +11,17 @@
 	display: block;
 	vertical-align: middle;
 	position: relative;
-    left: 40px;
+  left: 40px;
+  color:#FFCC81;
+}
+.scrollstyle{
+  
+width:80%;
+height:50%;
+line-height:3em;
+overflow:scroll;
+padding:5px;
+background-color:#5196D8;
+border:4px double #DEBB07;
+position: relative;
 }
