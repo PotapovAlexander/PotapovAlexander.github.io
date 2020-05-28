@@ -137,4 +137,12 @@ cursor: not-allowed;
 	box-shadow: none;
 }
 
+label {
+    padding-top: 6px;
+    line-height: 18px;
+    float: left;
+    color: #b6daff;
+    margin-right: 7px;
+    width: 120px;
+}
 
