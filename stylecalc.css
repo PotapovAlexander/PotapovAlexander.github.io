@@ -10,5 +10,6 @@
 .stablab {
 	display: block;
 	vertical-align: middle;
-	
+	position: relative;
+    left: 40px;
 }
