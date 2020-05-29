@@ -1,0 +1,9 @@
+{% extends "base.html" %} <!-- !-->
+{% block content %}
+<div class="scrollstyle">
+Курсы<br>
+    {% for nameDoS in choose %}
+<a href="http://127.0.0.1:5000/{{nameDoS[0]}}">{{ nameDoS[1] }}</a><br>
+    {%endfor%}
+</div>
+{% endblock %}

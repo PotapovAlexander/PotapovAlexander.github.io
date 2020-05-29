@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+            integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+            crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+            crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/node-forge@0.7.0/dist/forge.min.js"
+            integrity="sha384-sgzMi6V7PVuBrH3D+OTG6gR4GjgQCsSSUYFcGoGCNr5ks7Sr3WrS+zNv5H33fTY5"
+            crossorigin="anonymous"></script>
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='css/animebase.css') }}">
+    <link rel="">
+    {% block imports %}{% endblock %}
+    <title>
+        {{ title }}<!--сюда название страницы !-->
+    </title>
+</head>
+<header>
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark" style="background: black; color: white;">
+        <div class="container">
+            <div class="w-100 text-center">
+                <span>{{ title }}</span><!--сюда название страницы !-->
+                <a href="http://127.0.0.1:5000/pizda">http://pizdi.dam</a>
+            </div>
+        </div>
+    </nav>
+</header>
+<body>
+    {% block content %}{% endblock %}
+</body>
+</html>
