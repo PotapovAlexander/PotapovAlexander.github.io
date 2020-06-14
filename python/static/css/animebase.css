@@ -1,0 +1,81 @@
+.containercalc {
+	width:100%;
+	height: 60vh;
+	background:
+	url("intro.jpg") center;
+	np-repeat;
+	background-size: cover;
+}
+
+.stablab {
+	display: block;
+	vertical-align: middle;
+	position: relative;
+    left: 40px;
+    color:#1e68b0;
+}
+.scrollstyle{
+
+    width:80%;
+    height:50%;
+    line-height:3em;
+    overflow:scroll;
+    padding:5px;
+    background-color:#f0f2f4;
+    border:4px double #DEBB07;
+    position: absolute;
+    left: 10%;
+    top:20%;
+}
+
+/*Button styles */
+.button {
+    padding: 0;
+    border: none;
+    background: none;
+    display: inline-block;
+    vertical-align: top;
+    height: 48px;
+    line-height: 46px;
+    padding: 0 25px;
+    font-family: inherit;
+    font-size: 15px;
+    color: #bbb;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 0 0 2px rgba(0, 0, 0, 0.7);
+    background-color: #303030;
+    background-clip: padding-box;
+    border: 1px solid;
+    border-color: #75A7D8 #5196D8 #75A7D8;
+    border-radius: 25px;
+    background-image: linear-gradient(to bottom, #1E68B0, #3f8bd4);
+ }
+.button:hover {
+    background-image: linear-gradient(to bottom, #0A3F72, #15436f);
+}
+.button:active, .button.active {
+    line-height: 48px;
+    color: #a56b6b;
+    border-color: #75A7D8 #5196D8 #75A7D8;
+    background-image: linear-gradient(to bottom, #75A7D8, #5196D8);
+}
+
+
+/*button position*/
+.buttonanimepos {
+    position: absolute;
+    right: 10%;
+    bottom:22%;
+}
+.buttonhentaipos {
+    position: absolute;
+    left: 10%;
+    bottom:22%;
+}
+
+.calcresult {
+  position: absolute;
+  left: 45%;
+  bottom:22%;
+}

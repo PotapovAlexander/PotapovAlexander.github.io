@@ -1,0 +1,86 @@
+{% extends "base.html" %}
+{% block imports %}
+    <script type="text/javascript"
+            src="{{ url_for('static', filename='js/index.js') }}"></script>
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='css/index.css') }}">
+{% endblock %}
+{% block content %}
+    <div class="containercalc">
+    <div class="scrollstyle" >
+        <div class="row">
+            <div class="col-9">
+                <span>Сервис автоматического расчета стоимости дополнительных образовательных услуг</span>
+            </div>
+        </div>
+        <div>
+            <table>
+<!--     Здесь заполняем таблицу данными из Courses           -->
+                {% for row in data %}
+                    <tr>
+                        {% for col in row %}
+                            <td>{{col}}</td>
+                        {% endfor %}
+                    </tr>
+                {% endfor %}
+            </table>
+        </div>
+        </div>
+        <div class="calcresult">
+                <span>какой ценой..?</span>
+                <span id="output-span">ценой всего...</span>
+        </div>
+        <div class="buttonanimepos">
+            <div>
+                <button class="button" id="calc-button" type="button">Zagruzitb iz DB</button>
+            </div>
+        </div>
+        <div class="buttonhentaipos">
+		    <a class="button" href="http://127.0.0.1:5000"> назад к выбору направления </a>
+	    </div>
+    </div>
+<!--        <div class="row">-->
+
+<!--            <table id="my-rofl-table" class="table">-->
+<!--                <tr>-->
+<!--                    <th id="thead-hot">-->
+<!--                        <div class="form-check">-->
+<!--                            <input class="form-check-input" type="checkbox" value="0">-->
+<!--                            <span>check boxes</span>-->
+<!--                        </div>-->
+
+<!--                    </th>-->
+<!--                    <th colspan="2" class="text-center">lmao</th>-->
+<!--                    <th>rofl</th>-->
+<!--                    <th>kek</th>-->
+<!--                    <th>price</th>-->
+<!--                </tr>-->
+<!--                {% for row in data.table %}-->
+<!--                    <tr>-->
+<!--                        <td>-->
+<!--                            <div class="form-check">-->
+<!--                                <input class="form-check-input" type="checkbox" id="{{ row.id }}" value="{{ row.value }}">-->
+<!--                            </div>-->
+<!--                        </td>-->
+<!--                        {% for col in row.cols %}-->
+<!--                            <td>{{ col }}</td>-->
+<!--                        {% endfor %}-->
+<!--                    </tr>-->
+<!--                {% endfor %}-->
+<!--            </table>-->
+<!--        </div>-->
+<!--        <div class="row">-->
+<!--            <div class="col-4 text-right">-->
+<!--                <span>какой ценой..?</span>-->
+<!--            </div>-->
+<!--            <div class="col-8 text-left">-->
+<!--                <span id="output-span">ценой всего...</span>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--        <div class="row">-->
+<!--            <div>-->
+<!--                <button class="button" id="calc-button" type="button">Zagruzitb iz DB</button>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+{% endblock %}

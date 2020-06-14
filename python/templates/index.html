@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+{% block imports %}
+    <script type="text/javascript"
+            src="{{ url_for('static', filename='js/index.js') }}"></script>
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='css/index.css') }}">
+{% endblock %}
+{% block content %}
+<div class="scrollstyle">
+    <div >
+        <select id="courses-select">
+            {% for course in choose %}
+                <option value={{ course[0] }} selected>{{ course[1] }}</option>
+            {% endfor %}
+        </select>
+        <button class="button" id="load-button">Загрузить</button>
+    </div>
+    <div>
+        <table id="rofl-table">
+            <thead></thead>
+            <tbody></tbody>
+        </table>
+    </div>
+</div>
+<div>
+    <div class="buttonhentaipos">
+            <button class="button" id="save-button" type="button">Сохранить</button>
+    </div>
+    <div class="calcresult">
+        <span>какой ценой..?</span>
+        <span id="output-span">ценой всего...</span>
+    </div>
+    <div class="buttonanimepos">
+            <button class="button" id="calc-button" type="button">Расчет</button>
+    </div>
+</div>
+{% endblock %}

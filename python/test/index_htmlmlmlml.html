@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{% block imports %}
+    <script type="text/javascript"
+            src="{{ url_for('static', filename='js/index.js') }}"></script>
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='css/index.css') }}">
+{% endblock %}
+{% block content %}
+<div>
+    <div>
+        <select id="courses-select">
+            {% for course in choose %}
+                <option value={{ course[0] }} selected>{{ course[1] }}</option>
+            {% endfor %}
+        </select>
+        <button id="load-button">Load</button>
+    </div>
+    <div>
+        <table id="rofl-table">
+            <thead></thead>
+            <tbody></tbody>
+        </table>
+    </div>
+</div>
+{% endblock %}
